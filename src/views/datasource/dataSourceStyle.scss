@@ -1,0 +1,121 @@
+$menuBoxBorder:1px solid rgba(222,222,222,1);
+
+.menuBox {
+  border-left: $menuBoxBorder;
+  border-right: 5px solid #D8D9DD;
+  height: 838px;
+  overflow: auto;
+}
+.menuHeader {
+  line-height: 24px;
+  height: 24px;
+  background: rgba(238,238,238,1);
+  border-top: $menuBoxBorder;
+  border-bottom: $menuBoxBorder;
+  padding: 0 10px;
+}
+.wl-table_dataSource {
+  td {
+    white-space: nowrap;
+    border-bottom: 1px solid #D8D9DE;
+    height: 75px;
+    padding: 0px 5px;
+    vertical-align: middle;
+    position: relative;
+  }
+  .title_a {
+    color: #ab6d29;
+    display: inline-block;
+    font-weight: bold;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  .right_operating {
+    width: 200px;
+    text-align: center;
+    position: relative;
+    a {
+      margin-right: 5px;
+    }
+  }
+}
+.button_blue_small {
+  line-height: 18px;
+  color: #ab6d29;
+  height: 18px;
+  text-align: center;
+  display: inline-block;
+}
+.wl {
+  font-size: 12px;
+  img:hover {
+    background:#fff;
+  }
+  .el-tabs__header{
+    margin:0;
+  }
+  .el-tabs__item {
+    height:30px;
+    line-height:30px;
+  }
+}
+.icon_metalist {
+  background: url(images/icon_metalist.png) no-repeat center center;
+  display: inline-block;
+  height: 39px;
+  width: 39px;
+}
+.barHeader {
+  background: linear-gradient(rgb(255,255,255), rgb(243,243,243));
+  line-height: 30px;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  a {
+   margin:0 5px
+  }
+}
+.infoStyle {
+  span{
+    color: #AEAEAE;
+    margin:0 5px 0 0;
+  }
+  img {
+    vertical-align: middle;
+    margin:0 5px 0 0;
+  }
+}
+.tableList {
+  td {
+    padding:5px;
+   /* cursor: pointer;*/
+    border-bottom: 1px solid #EFEFEF;
+  }
+  tr:hover {
+    background:#f8f8f8;
+  }
+  tr:focus {
+    background: #e2e2e2;
+  }
+}
+.tableHeader {
+  td {
+    font-size: 12px;
+    border-right: 1px solid #ccc;
+  }
+}
+.selectTd {
+  td {
+    background: #e2e2e2;
+  }
+}
